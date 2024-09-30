@@ -19,6 +19,23 @@ function App() {
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="Tytul">Tytuł filmy:</label>
+          <input
+          type="text"
+          id="tytul"
+          className="form-control"
+          value={tytul}
+          onChange={(e) => setTytul(e.target.value)}
+          />
+
+          <div className="form-group">
+            <label htmlFor="rodzaj">Rodzaj filmu:</label>
+            <select
+            id="rodzaj"
+            className="form-control"
+            value={rodzaj}
+            onChange={(e) => setRodzaj(e.target.value)}
+            />
+          </div>
         </div>
       </form>
     </div>
