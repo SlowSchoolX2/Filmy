@@ -34,7 +34,13 @@ function App() {
             className="form-control"
             value={rodzaj}
             onChange={(e) => setRodzaj(e.target.value)}
-            />
+            >
+            <option value="">Wybierz rodzaj</option>
+            <option value="1">Komedia</option>
+            <option value="2">Obyczajowy</option>
+            <option value="3">Sensacyjny</option>
+            <option value="4">Horror</option>
+            </select>
           </div>
         </div>
       </form>
