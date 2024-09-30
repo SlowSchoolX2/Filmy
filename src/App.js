@@ -10,7 +10,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log('Tytuł: ${tytul}, Rodzaj: ${rodzaj}')
+    console.log(`Tytuł: ${tytul}, Rodzaj: ${rodzaj}`)
   };
 
   return (
